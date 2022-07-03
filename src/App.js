@@ -20,7 +20,7 @@ function App() {
   }
   return (
     <div className="App text-white " style={{backgroundImage:"linear-gradient(rgba(0,0,0,.85) 15%,rgba(0,0,0,.2) 40%,#000 90%)"}} >
-      <div className="container mx-auto max-w-5xl py-7 px-12 h-screen">
+      <div className="container mx-auto max-w-5xl py-7 px-12 h-full md:h-screen">
         
         <SearchMovie submitIdMovie={submitIdMovie} />
         <Card infoMovie={infoMovie} />
